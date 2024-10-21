@@ -71,7 +71,7 @@ def main():
         with gr.Row():
             with gr.Column():
                 document = gr.File(label="Upload Document")
-                text_input = gr.Textbox(label="Or Enter Text Manually")
+                text_input = gr.TextArea(label="Or Enter Text Manually")
         
         # Let users select the summary type (short, medium, long)
         summary_type = gr.Radio(
@@ -81,7 +81,7 @@ def main():
         )
         
         # Output section
-        output = gr.Textbox(label="Summarized Output", interactive=False)
+        output = gr.TextArea(label="Summarized Output", interactive=False)
         
         # Button to trigger summarization
         summarize_button = gr.Button("Summarize")
