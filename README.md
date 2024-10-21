@@ -26,6 +26,9 @@ Before you begin, ensure you have the following installed:
 
 You will also need an **OpenAI API key** to access the language model used in this project. You can obtain one by signing up for an account at [OpenAI](https://platform.openai.com/).
 
+## Final Result
+![](demo_1.gif)
+
 ## Installation
 
 1. **Clone the Repository**:
